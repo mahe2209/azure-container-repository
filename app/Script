@@ -1,0 +1,14 @@
+az ad sp create-for-rbac --name "Container 2023!" --role owner --scopes /subscriptions/f8c21577-3fbf-4cc4-8289-016b002378cd --sdk-auth
+
+{
+  "clientId": "1630ebea-8c84-43ee-9c57-c8bdfaeeda42",
+  "clientSecret": "idG8Q~QzkZUIUBmdk0xcZIZlSSnPCgDtc7NX1bZM",
+  "subscriptionId": "f8c21577-3fbf-4cc4-8289-016b002378cd",
+  "tenantId": "f20bd6c9-b45a-4c14-8085-64f2ab25bd1b",
+  "activeDirectoryEndpointUrl": "https://login.microsoftonline.com",
+  "resourceManagerEndpointUrl": "https://management.azure.com/",
+  "activeDirectoryGraphResourceId": "https://graph.windows.net/",
+  "sqlManagementEndpointUrl": "https://management.core.windows.net:8443/",
+  "galleryEndpointUrl": "https://gallery.azure.com/",
+  "managementEndpointUrl": "https://management.core.windows.net/"
+}
